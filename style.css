@@ -45,6 +45,11 @@ nav{
     color: rgb(255, 255, 255);
 }
 
+.hamburger{
+  display: none;
+  flex-direction: column;
+}
+
 /*Home Section*/
 .shapes{
     top: 0;
@@ -1113,4 +1118,13 @@ article {
         border-radius: 100%;
     }
 
+}
+
+@media (max-width:768px) {
+  .hamburger{
+    display: flex;
+  }
+  .pc{
+    display: none;
+  }
 }
