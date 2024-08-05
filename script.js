@@ -23,3 +23,12 @@ document.getElementById('cc3').addEventListener('mouseover', addNewColors);
 document.getElementById('cc1').addEventListener('mouseout', removeNewColors);
 document.getElementById('cc2').addEventListener('mouseout', removeNewColors);
 document.getElementById('cc3').addEventListener('mouseout', removeNewColors);
+
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburgerBtn = document.querySelector('.hamburger-btn');
+  const hamburgerMenu = document.querySelector('.hamburger-menu');
+
+  hamburgerBtn.addEventListener('click', () => {
+      hamburgerMenu.classList.toggle('active');
+  });
+});

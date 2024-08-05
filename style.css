@@ -49,6 +49,13 @@ nav{
   display: none;
   flex-direction: column;
 }
+.hamburger-btn {
+  display: none;
+}
+
+.hamburger-menu.active .hamburger {
+  display: none;
+}
 
 /*Home Section*/
 .shapes{
@@ -1123,7 +1130,25 @@ article {
 @media (max-width:768px) {
   .hamburger{
     display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust based on header height */
+    right: 0;
+    background: purple; /* Background color for menu */
+    width: 200px; /* Adjust width as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
+  .hamburger a {
+    padding: 10px;
+    border-bottom: 1px solid purple;
+}
+
+  .hamburger-btn {
+    display: block;
+}
+  .hamburger-menu.active .hamburger {
+    display: flex;
+}
   .pc{
     display: none;
   }
