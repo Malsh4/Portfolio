@@ -1272,43 +1272,4 @@ article {
 .con h1{
   font-size: 30px;
 }
-
-/* Home Section */
-.heading, .para {
-  margin: 10%;
-  flex-direction: column; /* Stack items vertically on smaller screens */
-}
-
-/* Skills section grid */
-.container {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust grid columns */
-}
-
-/* Project Section */
-.articles {
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* Adjust grid columns */
-  overflow-x: auto;
-}
-
-/* Certificate Section */
-.slide-container {
-  margin-left: 0; /* Center content on smaller screens */
-  margin-right: 0;
-}
-
-/* Contact Section */
-.contact-wrapper {
-  flex-direction: column; /* Stack items vertically on smaller screens */
-}
-
-/* Form fields */
-.form-control, textarea {
-  max-width: 100%; /* Full width on smaller screens */
-}
-
-/* Social Media Icons */
-.social-media-list li {
-  width: 50px; /* Smaller icons on smaller screens */
-  height: 50px;
-}
 }
