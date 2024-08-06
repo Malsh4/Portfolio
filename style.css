@@ -1126,6 +1126,7 @@ article {
     width: 100%;
     display: flex;
     flex-direction: column;
+    zoom: 0%;
   }
   .heading{
     display: flex;
