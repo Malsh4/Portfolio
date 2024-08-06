@@ -1123,11 +1123,16 @@ article {
     display: none;
   }
   .home{
-    display: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
   .heading{
     display: flex;
     flex-direction: column;
+    width: 100%;
+  }
+  .img{
     width: 100%;
   }
   .intro{
