@@ -44,6 +44,9 @@ nav{
     background-color: #000000;
     color: rgb(255, 255, 255);
 }
+.mobile{
+  display: none;
+}
 
 /*Home Section*/
 .shapes{
@@ -1118,11 +1121,13 @@ article {
 }
 
 @media (max-width:768px) {
-  /*Home*/
-  .nav{
+  .pc{
     display: none;
   }
   .animation1{
+    display: none;
+  }
+  .shapes{
     display: none;
   }
   .home{
@@ -1146,6 +1151,27 @@ article {
   .con{
     display: none;
   }
+  :root{
+    display: none;
+  }
+  .body{
+    background-color: white;
+  }
+  .nav{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    background-color: #800080;
+    height: 20px;
+  }
+  .mobile{
+    padding: 0;
+    color: white;
+  }
+  /*Nab Bar*/
+
   /*.home{
     width: 100%;
     display: flex;
