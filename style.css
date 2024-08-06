@@ -1119,10 +1119,13 @@ article {
 
 @media (max-width:768px) {
   /*Home*/
+  .pc{
+    display: none;
+  }
   .heading{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
   }
   .intro{
     font-size: 10px;
