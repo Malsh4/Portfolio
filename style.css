@@ -1119,7 +1119,10 @@ article {
 
 @media (max-width:768px) {
   /*Home*/
-  .pc{
+  .nav{
+    display: none;
+  }
+  .home{
     display: none;
   }
   .heading{
@@ -1212,7 +1215,7 @@ article {
   font-size: 30px;
 }
 .container{
-  width: 80%;
+  width: 100%;
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
@@ -1265,11 +1268,29 @@ article {
 }
 
 .con{
-  width: 80%;
+  width:100%;
   bottom: 0;
   padding-top: 80%;
 }
 .con h1{
   font-size: 30px;
+}
+.shapes2{
+  left: 0%;
+  height: 90%;
+  width: 100%;
+  overflow: hidden;
+  top: 635%;
+}
+.shapes2 li{
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 0, 183, 0.3);
+  animation: animate 16s linear infinite;
+  bottom: -150px;
+  
 }
 }
