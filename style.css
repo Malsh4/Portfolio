@@ -1138,6 +1138,10 @@ article {
   .nav .pc{
     display: none;
   }
+  .nav {
+    overflow-x: hidden;
+    display:none;
+  }
   .nav .mobile{
     display: flex;
     height: 40px;
