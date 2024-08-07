@@ -1222,6 +1222,7 @@ article {
     position: absolute;
     right: 0;
     top: 180%;
+    overflow-x: hidden;
   }
   .circle{
     position: absolute;
