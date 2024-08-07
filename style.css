@@ -1143,6 +1143,10 @@ article {
     width: 100%;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+  }
+  .animation1{
+    overflow-x: hidden;
   }
   .heading{
     display: flex;
@@ -1246,6 +1250,7 @@ article {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow-x: hidden;
 }
 .skills h1{
   font-size: 30px;
@@ -1274,6 +1279,7 @@ article {
 /*Projects*/
 .pro{
   width: 100%;
+  overflow-x: hidden;
 }
 .pro h1{
   font-size: 30px;
@@ -1282,50 +1288,57 @@ article {
   height: 450px;
 }
 /*Certificate*/
+.cer{
+  overflow-x: hidden;
+}
 .cer h1{
   font-size: 30px;
 }
 .slide-container {
-  display:flex;
-  text-align: center;
-  flex-direction: column;
-  margin-left: 28%;
-}
-
-.slide{
-  text-align: center;
-  width: 210px;
-  height: 150px;
-  object-fit: cover;
-  overflow: hidden;
-  display: flex;
-  img{
-    padding: 5px;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
   }
-}
 
-.slide_col{
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  width: 1000px;
-  height: 300px;
-}
+  .slide{
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    img{
+      padding: 5px;
+    }
+  }
 
+  .slide_col{
+    display: flex;
+    flex-direction:column;
+    width: 1000px;
+    height: 300px;
+
+  }
+  
+
+/*Contatc*/
 .con{
   width:100%;
-  bottom: 0;
-  padding-top: 80%;
+  margin-top: 300px;
 }
 .con h1{
   font-size: 30px;
 }
 .shapes2{
+  top: 540%;
   left: 0%;
-  height: 90%;
+  position: absolute;
+  height: 170%;
   width: 100%;
   overflow: hidden;
-  top: 635%;
 }
 .shapes2 li{
   position: absolute;
@@ -1334,8 +1347,8 @@ article {
   width: 20px;
   height: 20px;
   background: rgba(255, 0, 183, 0.3);
-  animation: animate 16s linear infinite;
+  animation: animate 20s linear infinite;
   bottom: -150px;
   
-}*/
+}
 }
