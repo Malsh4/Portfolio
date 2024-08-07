@@ -165,7 +165,6 @@ nav{
   flex-direction: column;
 }
 .heading{
-    overflow-x: hidden;
     display: flex;
     flex-direction: row;
     width: 100%; 
@@ -1124,22 +1123,10 @@ article {
 
 }
 @media (max-width:768px) {
-  html{
-    overflow-x: hidden;
-  }
-
-  body{
-    overflow-x: hidden;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   /*Nav Bar*/
   .nav .pc{
     display: none;
   }
-  
   .nav .mobile{
     display: flex;
     height: 40px;
@@ -1219,7 +1206,6 @@ article {
     position: absolute;
     right: 0;
     top: 180%;
-    overflow-x: hidden;
     display: none;
   }
   .circle{
@@ -1352,7 +1338,7 @@ article {
   font-size: 30px;
 }
 .contact-list{
-  margin-left: -70px;
+  margin-left: -0px;
 }
 .shapes2{
   top: 540%;
