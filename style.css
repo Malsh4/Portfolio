@@ -1132,6 +1132,7 @@ article {
     height: 40px;
     width: 50%;
     margin-bottom: 5%;
+    overflow-x: hidden;
   }
   .mobile i{
     display: flex;
