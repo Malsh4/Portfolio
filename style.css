@@ -1133,6 +1133,7 @@ article {
     width: 250px;
     margin-bottom: 5%;
     overflow-y: hidden;
+    overflow-x: hidden;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -1334,6 +1335,9 @@ article {
 }
 .con h1{
   font-size: 30px;
+}
+.contact-list{
+  margin-left: -70px;
 }
 .shapes2{
   top: 540%;
