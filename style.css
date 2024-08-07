@@ -34,7 +34,7 @@ nav{
 }
 
 .nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 14px;
     cursor: pointer;
@@ -160,7 +160,10 @@ nav{
     }
 
 }
-
+.home{
+  display: flex;
+  flex-direction: column;
+}
 .heading{
     display: flex;
     flex-direction: row;
@@ -1119,75 +1122,48 @@ article {
     }
 
 }
-
 @media (max-width:768px) {
-  .pc{
+  /*Nav Bar*/
+  .nav .pc{
     display: none;
   }
-  .animation1{
-    display: none;
-  }
-  .shapes{
-    display: none;
-  }
-  .home{
-    display: none;
-  }
-  .skills{
-    display: none;
-  }
-  .pro{
-    display: none;
-  }
-  .cer{
-    display: none;
-  }
-  .slide-container{
-    display: none;
-  }
-  .animation2{
-    display: none;
-  }
-  .con{
-    display: none;
-  }
-  :root{
-    display: none;
-  }
-  .body{
-    background-color: white;
-  }
-  .nav{
+  .nav .mobile{
     display: flex;
-    flex-direction: row;
-    width: 60%;
-    justify-content: center;
+    height: 40px;
+    width: 50%;
+    margin-bottom: 5%;
+  }
+  .mobile i{
+    display: flex;
     align-items: center;
-    background-color: #800080;
-    height: 20px;
+    justify-content: center;
   }
-  .mobile{
-    padding: 0;
-    color: white;
-  }
-  /*Nab Bar*/
-
-  /*.home{
+  /*Home*/
+  .home{
     width: 100%;
     display: flex;
     flex-direction: column;
-    zoom: 0%;
   }
   .heading{
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 15%;
   }
   .img{
     width: 100%;
   }
+  .para{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
   .intro{
-    font-size: 10px;
+    color: white;
+    font-size: 10PX;
+    text-align: justify;
+    display: flex;
+    margin-top: 20px;
   }
   .pp1{
     font-size: 40px;
@@ -1202,6 +1178,9 @@ article {
     width: 60%;
     height: 60%;
     margin-bottom: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .buttoncv button{
     height: 25px;
@@ -1212,20 +1191,20 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: translateX(-10%);
   }
-  /*Skills
+  /*Skills*/
   .ripple-background{
     position: absolute;
     right: 0;
     top: 180%;
-}
-.circle{
+  }
+  .circle{
     position: absolute;
     border-radius: 50%;
     background: purple;
     animation: ripple 15s infinite;
-}
-  
+} 
 .small{
     width: 150px;
     height: 150px;
@@ -1260,6 +1239,7 @@ article {
     left: -375px;
     bottom: -375px;
 }
+
 .skills{
   width: 80%;
   display: flex;
@@ -1270,19 +1250,28 @@ article {
 .skills h1{
   font-size: 30px;
 }
-.container{
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 5px;
   width: 100%;
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
-.container .card{
-  height: 250px;
-  width: 250px;
+
+.container .card {
+  position: relative;
+  background: transparent;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  height: 300px;
+  border-radius: 4px;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.5s;
+  scale: 0.8;
 }
-/*Projects
+/*Projects*/
 .pro{
   width: 100%;
 }
@@ -1292,7 +1281,7 @@ article {
 .articles{
   height: 450px;
 }
-/*Certificate
+/*Certificate*/
 .cer h1{
   font-size: 30px;
 }
