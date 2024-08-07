@@ -1143,7 +1143,6 @@ article {
     display:none;
   }
   .nav .mobile{
-    display: flex;
     height: 40px;
     width: 250px;
     margin-bottom: 5%;
