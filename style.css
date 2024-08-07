@@ -1123,12 +1123,15 @@ article {
 
 }
 @media (max-width:768px) {
-  .html{
+  html{
     overflow-x: hidden;
   }
 
   body{
     overflow-x: hidden;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   /*Nav Bar*/
