@@ -1133,6 +1133,8 @@ article {
     width: 250px;
     margin-bottom: 5%;
     overflow-y: hidden;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .mobile i{
     display: flex;
