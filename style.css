@@ -1139,9 +1139,7 @@ article {
   .nav .pc{
     display: none;
   }
-  .nav{
-    background-color: yellow;
-  }
+  
   .nav .mobile{
     display: flex;
     height: 40px;
@@ -1163,11 +1161,9 @@ article {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    background-color: lightblue;
   }
   .animation1{
     overflow-x: hidden;
-    background-color: green;
   }
   .heading{
     display: flex;
@@ -1189,7 +1185,6 @@ article {
     text-align: justify;
     display: flex;
     margin-top: 20px;
-    background-color: white;
   }
   .pp1{
     font-size: 40px;
@@ -1225,7 +1220,7 @@ article {
     right: 0;
     top: 180%;
     overflow-x: hidden;
-    background-color: yellow;
+    display: none;
   }
   .circle{
     position: absolute;
@@ -1275,7 +1270,6 @@ article {
   justify-content: center;
   flex-direction: column;
   overflow-x: hidden;
-  background-color: red;
 }
 .skills h1{
   font-size: 30px;
@@ -1315,7 +1309,6 @@ article {
 /*Certificate*/
 .cer{
   overflow-x: hidden;
-  background-color: blue;
 }
 .cer h1{
   font-size: 30px;
@@ -1354,7 +1347,6 @@ article {
 .con{
   width:100%;
   margin-top: 300px;
-  background-color: green;
 }
 .con h1{
   font-size: 30px;
