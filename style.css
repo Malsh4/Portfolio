@@ -165,6 +165,7 @@ nav{
   flex-direction: column;
 }
 .heading{
+    overflow-x: hidden;
     display: flex;
     flex-direction: row;
     width: 100%; 
@@ -1143,6 +1144,7 @@ article {
     display:none;
   }
   .nav .mobile{
+    display: none;
     height: 40px;
     width: 250px;
     margin-bottom: 5%;
