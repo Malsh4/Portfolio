@@ -1325,10 +1325,8 @@ article {
     flex-direction:column;
     width: 1000px;
     height: 300px;
-
   }
   
-
 /*Contatc*/
 .con{
   width:100%;
@@ -1338,7 +1336,7 @@ article {
   font-size: 30px;
 }
 .contact-list{
-  margin-left: -0px;
+  margin-left: -80px;
 }
 .shapes2{
   top: 540%;
