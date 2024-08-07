@@ -1123,6 +1123,14 @@ article {
 
 }
 @media (max-width:768px) {
+  .html{
+    overflow-x: hidden;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+
   /*Nav Bar*/
   .nav .pc{
     display: none;
