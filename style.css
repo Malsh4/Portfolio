@@ -1261,6 +1261,8 @@ flex-direction: column;
 overflow-x: hidden;
 }
 .skills h1{
+padding-left: 40px;
+padding-right: 40px;
 font-size: 30px;
 }
 .container {
@@ -1326,6 +1328,8 @@ justify-content: center;
 }
 .cer h1{
 font-size: 30px;
+padding-left: 40px;
+padding-right: 40px;
 }
 .slide-container {
   display:flex;
